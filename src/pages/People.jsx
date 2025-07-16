@@ -29,17 +29,17 @@ const People = () => {
   ];
 
   return (
-    <div className="p-6">
+    <div className="p-4">
       {/* Header */}
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-bold">People</h1>
-        <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+        <button className="w-36 bg-blue-500 hover:bg-blue-600 text-white font-medium px-4 py-2 rounded-md text-sm">
           + Add People
         </button>
       </div>
 
       {/* Stat Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-8 px-2">
         {[
           {
             label: "Total Peoples",
@@ -70,11 +70,7 @@ const People = () => {
             color: "text-green-500",
           },
         ].map((card, i) => (
-<<<<<<< HEAD
           <div key={i} className="p-4 bg-white shadow rounded-xl">
-=======
-          <div key={i} className="p-4 bg-white rounded shadow">
->>>>>>> 487334e09331b82a216e0279c426f53145d33c82
             <p className="text-gray-500">{card.label}</p>
             <h2 className="text-xl font-semibold">{card.value}</h2>
             <p className={`text-sm ${card.color}`}>
@@ -85,11 +81,7 @@ const People = () => {
       </div>
 
       {/* People Directory Table */}
-<<<<<<< HEAD
-      <div className="bg-white rounded-xl shadow overflow-auto ">
-=======
-      <div className="bg-white rounded shadow overflow-auto">
->>>>>>> 487334e09331b82a216e0279c426f53145d33c82
+      <div className="bg-white rounded-xl shadow overflow-auto">
         <div className="flex justify-between items-center p-4 border-b">
           <h2 className="font-semibold">People Directory</h2>
           <input
@@ -160,8 +152,4 @@ const People = () => {
   );
 };
 
-<<<<<<< HEAD
 export default People;
-=======
-export default People;
->>>>>>> 487334e09331b82a216e0279c426f53145d33c82

@@ -18,10 +18,7 @@ const Dashboard = () => {
       icon: <Users className="text-blue-600" />,
       change: "+12% from last month",
       color: "text-green-500",
-<<<<<<< HEAD
       bg: "bg-blue-100",
-=======
->>>>>>> 487334e09331b82a216e0279c426f53145d33c82
     },
     {
       title: "Active Courses",
@@ -29,10 +26,7 @@ const Dashboard = () => {
       icon: <BookOpen className="text-green-600" />,
       change: "+8% from last month",
       color: "text-green-500",
-<<<<<<< HEAD
       bg: "bg-green-100",
-=======
->>>>>>> 487334e09331b82a216e0279c426f53145d33c82
     },
     {
       title: "Teachers",
@@ -40,10 +34,7 @@ const Dashboard = () => {
       icon: <UserCircle className="text-purple-600" />,
       change: "+3% from last month",
       color: "text-blue-500",
-<<<<<<< HEAD
       bg: "bg-purple-100",
-=======
->>>>>>> 487334e09331b82a216e0279c426f53145d33c82
     },
     {
       title: "Completion Rate",
@@ -51,10 +42,7 @@ const Dashboard = () => {
       icon: <TrendingUp className="text-orange-600" />,
       change: "+5% from last month",
       color: "text-green-500",
-<<<<<<< HEAD
       bg: "bg-orange-100",
-=======
->>>>>>> 487334e09331b82a216e0279c426f53145d33c82
     },
   ];
 
@@ -96,17 +84,10 @@ const Dashboard = () => {
       {/* Stats */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
         {stats.map((stat, idx) => (
-<<<<<<< HEAD
           <div key={idx} className="p-4 rounded-xl bg-white shadow-sm">
             <div className="flex justify-between items-center mb-2">
               <h4 className="text-sm text-gray-600">{stat.title}</h4>
               <div className={`text-xl p-2 rounded-xl ${stat.bg}`}>{stat.icon}</div>
-=======
-          <div key={idx} className="p-4 border rounded-lg bg-white shadow-sm">
-            <div className="flex justify-between items-center mb-2">
-              <h4 className="text-sm text-gray-600">{stat.title}</h4>
-              <div className="text-xl">{stat.icon}</div>
->>>>>>> 487334e09331b82a216e0279c426f53145d33c82
             </div>
             <div className="text-2xl font-bold text-gray-800">{stat.value}</div>
             <div className={`text-xs mt-1 ${stat.color}`}>{stat.change}</div>
@@ -116,11 +97,7 @@ const Dashboard = () => {
 
       {/* Main Graphs */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
-<<<<<<< HEAD
         <div className="h-64 bg-white  rounded-xl shadow-sm p-4">
-=======
-        <div className="h-64 bg-white border rounded-lg shadow-sm p-4">
->>>>>>> 487334e09331b82a216e0279c426f53145d33c82
           <h3 className="text-lg font-medium text-gray-800 mb-2">
             People Enrollment Trends
           </h3>
@@ -129,11 +106,7 @@ const Dashboard = () => {
             [ Chart Placeholder ]
           </div>
         </div>
-<<<<<<< HEAD
         <div className="h-64 bg-white  rounded-xl shadow-sm p-4">
-=======
-        <div className="h-64 bg-white border rounded-lg shadow-sm p-4">
->>>>>>> 487334e09331b82a216e0279c426f53145d33c82
           <h3 className="text-lg font-medium text-gray-800 mb-2">
             Course Performance
           </h3>
@@ -146,13 +119,8 @@ const Dashboard = () => {
       {/* Bottom Section */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {/* Recent Activities */}
-<<<<<<< HEAD
         <div className="col-span-2 bg-white  rounded-xl shadow-sm p-4">
           <h3 className="text-lg font-semibold text-gray-800 mb-4 pb-2 border-b border-gray-500">
-=======
-        <div className="col-span-2 bg-white border rounded-lg shadow-sm p-4">
-          <h3 className="text-lg font-semibold text-gray-800 mb-4">
->>>>>>> 487334e09331b82a216e0279c426f53145d33c82
             Recent Activities
           </h3>
           <ul className="space-y-4">
@@ -172,24 +140,15 @@ const Dashboard = () => {
         </div>
 
         {/* Quick Actions */}
-<<<<<<< HEAD
         <div className="bg-white  rounded-xl shadow-sm p-4">
           <h3 className="text-lg font-semibold text-gray-800 mb-4 pb-2 border-b border-gray-500">
-=======
-        <div className="bg-white border rounded-lg shadow-sm p-4">
-          <h3 className="text-lg font-semibold text-gray-800 mb-4">
->>>>>>> 487334e09331b82a216e0279c426f53145d33c82
             Quick Actions
           </h3>
           <ul className="space-y-3">
             {quickActions.map((action, idx) => (
               <li
                 key={idx}
-<<<<<<< HEAD
                 className={`p-2 rounded-md text-center font-medium cursor-pointer transition-transform duration-200 hover:scale-105 ${action.bg} ${action.text}`}
-=======
-                className={`p-2 rounded-md text-center font-medium cursor-pointer ${action.bg} ${action.text}`}
->>>>>>> 487334e09331b82a216e0279c426f53145d33c82
               >
                 {action.label}
               </li>

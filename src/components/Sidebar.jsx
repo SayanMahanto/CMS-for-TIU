@@ -21,11 +21,7 @@ const Sidebar = () => {
     }`;
 
   return (
-<<<<<<< HEAD
     <div className="fixed top-0 left-0 h-screen w-64 bg-white shadow-md z-50">
-=======
-    <div className="h-screen w-64 bg-white shadow-md">
->>>>>>> 487334e09331b82a216e0279c426f53145d33c82
       <div className="flex items-center gap-2 p-5 border-b">
         <GraduationCap className="text-blue-600" />
         <div className="text-xl font-semibold text-gray-800">DEMO_CMS</div>
