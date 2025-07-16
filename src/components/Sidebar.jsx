@@ -24,7 +24,7 @@ const Sidebar = () => {
     <div className="fixed top-0 left-0 h-screen w-64 bg-white shadow-md z-50">
       <div className="flex items-center gap-2 p-5 border-b">
         <GraduationCap className="text-blue-600" />
-        <div className="text-xl font-semibold text-gray-800">DEMO_CMS</div>
+        <div className="text-xl font-semibold text-gray-800">CrazyIdeas</div>
       </div>
       <nav className="mt-6">
         <ul className="space-y-2 px-4">
